@@ -1,0 +1,184 @@
+{
+  "self": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "title": "NYC B2B: Pre-Seed + Seed Founders & Investors Meetup",
+        "description": "<p>\u200b<a href=\"http:\/\/nycb2b.beehiiv.com\" target=\"_blank\" rel=\"nofollow noopener\">NYC B2B<\/a> is the premier community for B2B Founders, Operators, and Investors in NYC. <a href=\"http:\/\/nycb2b.beehiiv.com\" target=\"_blank\" rel=\"nofollow noopener\">NYC B2B<\/a> often hosts happy hour events for founders, builders, and investors based in NYC.<\/p><p>\u200b<!-- -->This is an exclusive event for B2B Pre-Seed and Seed stage founders and investors. <\/p><p>\u200b<!-- -->\u200b<strong>\u200bWant to sponsor this event? Email @ <\/strong><strong><a href=\"mailto:newyorkcityventures@gmail.com\" target=\"_blank\" rel=\"nofollow noopener\">newyorkcityventures@gmail.com<\/a><\/strong><\/p><p>\u200b<!-- -->\u200bThis meetup is hosted by Manan Modi. It\u2019s a great way to meet other founders, builders, and investors. Whether you\u2019re building a company, exploring a side project, or considering a new idea, we would love to have you here.  Manan has previously hosted events for hundreds of startup founders + operators here in NYC.<\/p><p>\u200b<!-- -->\u200b\u200b\u200b\u200b\u200b\u200bBy signing up, you are confirming your interest in hearing about more events from Manan in the future via email! Manan also helps connect those who sign up with awesome partners.<\/p>",
+        "hosts": [
+          "Manan Modi"
+        ],
+        "group": "NYC B2B",
+        "address": "New York, New York",
+        "guests": [
+          "Nate Poon",
+          "Christopher Truong"
+        ],
+        "attendees": 138,
+        "tags": null,
+        "venue": null,
+        "online": null,
+        "eventSeriesDates": null,
+        "rationale": "The event is designed for a specific community of B2B founders and investors, indicating a focused and relevant gathering. We assess the proximity based on the location being in New York, which is a central hub for such events, making it very accessible for attendees.",
+        "non_commercial": 0.3,
+        "popularity": 0.8,
+        "free_admision": 0.5,
+        "no_additional_expenses": 0.6,
+        "drinks_provided": 0.7,
+        "food_provided": 0.5,
+        "venue_niceness": 0.8,
+        "quietness": 0.6,
+        "uniqueness": 0.7,
+        "proximity": 0.9
+      }
+    ],
+    "signature": {
+      "instructions": "Extract scoring features from event data.",
+      "fields": [
+        {
+          "prefix": "Title:",
+          "description": "event title"
+        },
+        {
+          "prefix": "Description:",
+          "description": "event description"
+        },
+        {
+          "prefix": "Attendees:",
+          "description": "the number of people attending the event"
+        },
+        {
+          "prefix": "Address:",
+          "description": "event address"
+        },
+        {
+          "prefix": "Guests:",
+          "description": "event guests"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${produce the proximity}. We ..."
+        },
+        {
+          "prefix": "Non Commercial:",
+          "description": "non_commercial (0 - very commercial, 1 - not commercial at all)"
+        },
+        {
+          "prefix": "Popularity:",
+          "description": "popularity (0 - very unpopular, 1 - very popular)"
+        },
+        {
+          "prefix": "Free Admision:",
+          "description": "free_admision (0 - very expensive, 1 - completely free)"
+        },
+        {
+          "prefix": "No Additional Expenses:",
+          "description": "no_additional_expenses (0 - lots of additional expenses, 1 - no additional expenses)"
+        },
+        {
+          "prefix": "Drinks Provided:",
+          "description": "drinks_provided (0 - no drinks provided, 1 - lots of drinks provided)"
+        },
+        {
+          "prefix": "Food Provided:",
+          "description": "food_provided (0 - no food provided, 1 - lots of food provided)"
+        },
+        {
+          "prefix": "Venue Niceness:",
+          "description": "venue_niceness (0 - very poor venue, 1 - very nice venue)"
+        },
+        {
+          "prefix": "Quietness:",
+          "description": "quietness (0 - very loud, 1 - very quiet)"
+        },
+        {
+          "prefix": "Uniqueness:",
+          "description": "uniqueness (0 - not unique, 1 - very unique)"
+        },
+        {
+          "prefix": "Proximity:",
+          "description": "proximity (0 - very far, 1 - very close)"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Analyze the following event details and extract key scoring features that capture the event's appeal and accessibility. Provide a comprehensive assessment based on the title, description, number of attendees, address, and guest list, focusing on factors such as non-commercial nature, popularity, admission costs, additional expenses, provisions for drinks and food, venue quality, noise level, uniqueness, and proximity.",
+      "fields": [
+        {
+          "prefix": "Title:",
+          "description": "event title"
+        },
+        {
+          "prefix": "Description:",
+          "description": "event description"
+        },
+        {
+          "prefix": "Attendees:",
+          "description": "the number of people attending the event"
+        },
+        {
+          "prefix": "Address:",
+          "description": "event address"
+        },
+        {
+          "prefix": "Guests:",
+          "description": "event guests"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${produce the proximity}. We ..."
+        },
+        {
+          "prefix": "Non Commercial:",
+          "description": "non_commercial (0 - very commercial, 1 - not commercial at all)"
+        },
+        {
+          "prefix": "Popularity:",
+          "description": "popularity (0 - very unpopular, 1 - very popular)"
+        },
+        {
+          "prefix": "Free Admision:",
+          "description": "free_admision (0 - very expensive, 1 - completely free)"
+        },
+        {
+          "prefix": "No Additional Expenses:",
+          "description": "no_additional_expenses (0 - lots of additional expenses, 1 - no additional expenses)"
+        },
+        {
+          "prefix": "Drinks Provided:",
+          "description": "drinks_provided (0 - no drinks provided, 1 - lots of drinks provided)"
+        },
+        {
+          "prefix": "Food Provided:",
+          "description": "food_provided (0 - no food provided, 1 - lots of food provided)"
+        },
+        {
+          "prefix": "Venue Niceness:",
+          "description": "venue_niceness (0 - very poor venue, 1 - very nice venue)"
+        },
+        {
+          "prefix": "Quietness:",
+          "description": "quietness (0 - very loud, 1 - very quiet)"
+        },
+        {
+          "prefix": "Uniqueness:",
+          "description": "uniqueness (0 - not unique, 1 - very unique)"
+        },
+        {
+          "prefix": "Proximity:",
+          "description": "proximity (0 - very far, 1 - very close)"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10.14",
+      "dspy": "2.5.43",
+      "cloudpickle": "3.1.1"
+    }
+  }
+}
